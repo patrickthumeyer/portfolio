@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="Portfolio_final_styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <div class="navbar">
+        <nav>
+            <ul>
+                <li><a href="Portfolio_final_home.html"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="Portfolio_final_photography.html"><i class="fas fa-camera-retro"></i> Photography</a></li>
+                <li><a href="Portfolio_final_development.html"><i class="fas fa-file-code"></i> Development</a>
+                <li><a href="Portfolio_final_Contact.html" class="active"><i class="fas fa-id-card"></i> Contact</a></li>
+                <li><a href="Portfolio_final_CV.html"><i class="fas fa-user"></i> CV</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <h1>Contact me!</h1>
+    <br>
+    <div class="Contactform">
+        <form action="evaluate-form.php">
+            <label for="fn">First Name</label>
+            <input type="text" id="fn" name="firstname" placeholder="Enter your first name" required><br><br>
+
+            <label for="ln">Last Name</label>
+            <input type="text" id="ln" name="lastname" placeholder="Enter your last name" required><br><br>
+
+            <label for="bd">Your birthday</label>
+            <input type="date" id="bd" name="birthday" placeholder="Write your last name" required><br><br>
+
+            <label for="country">Where do you come from?</label>
+
+            <select>
+                <option value="-">-------</option>
+                <option value="jp">Japan</option>
+                <option value="de">Germany</option>
+                <option value="fr">France</option>
+                <option value="en">England</option>
+            </select><br><br>
+
+            <label for="email">Email</label>
+            <input type="text" id="ln" name="email" placeholder="Enter your email address" required><br><br>
+
+            <!--
+        Too only give the possibility to select one option with radio all options need to have the same name.
+        -->
+
+            <label>Gender</label><br>
+            <input type="radio" id="male" name="gender" value="male" required><label> male</label><br>
+            <input type="radio" id="female" name="gender" value="female" required> <label>female</label><br>
+            <input type="radio" id="other" name="gender" value="other" required><label> other</label><br><br>
+
+
+            <label for="msg">Your message</label>
+            <textarea id="msg" name="message"></textarea>
+            <br><br>
+
+            <input type="checkbox" name="news" id="news" checked>
+            <label for="news">Please send newsletter</label><br><br>
+
+            <input type="file">
+            <br><br>
+
+            <input type="submit" value="Send" required>
+        </form>
+        <br>
+    </div>
+    
+    <footer>
+        <article>Copyright &copy, 2019</article>
+    </footer>
+
+</body>
+
+</html>
