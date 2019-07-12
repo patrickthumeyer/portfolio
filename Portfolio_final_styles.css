@@ -55,14 +55,14 @@ nav ul {
     display: inline
 }
 
-nav > ul > li {
+nav>ul>li {
     display: inline-block;
     margin: 0px;
     padding: 0px;
     border-left: 1px solid #f4f4f4;
 }
 
-nav > ul > li:first-child {
+nav>ul>li:first-child {
     border: none
 }
 
@@ -80,7 +80,7 @@ nav > ul > li:first-child {
 }
 
 @media all and (max-width: 790px) {
-    nav > ul > li {
+    nav>ul>li {
         display: block;
         margin: 0px;
         padding: 0px;
@@ -145,6 +145,16 @@ h1 {
     position: absolute;
     left: 5%;
     top: 50%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nametag2 {
+    font-weight: normal;
+    color: #555;
+    font-size: 30px;
+    position: absolute;
+    left: 5.5%;
+    top: 68%;
     font-family: 'Montserrat', sans-serif;
 }
 
